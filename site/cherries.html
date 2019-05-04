@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>CalorieCount_Cherries</title>
+	
+<meta name="viewport" content="width=device width, initial-scale=1">
+	
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <link rel="stylesheet" href="css/themes/CalCount15Feb.css" />
+  <link rel="stylesheet" href="css/themes/CalCount15Feb.min.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		
+<!--AR scripting--> 	
+<link rel="stylesheet" type="text/css" href="arCSS.css">
+	
+</head>
+
+<body>
+	
+	<div data-role="page" id="home">
+
+<!--Persistent header - see index page-->
+		
+	<main data-role="content" data-theme="a">
+		
+		<div class="foodPic"><img alt="Cherries" src="img/fruitVeg/cherries(c)OleksandrVertiy.jpg" /></div>
+
+		<div class="orangeBoxFood">
+			<div class="flexWrapper">
+			<h1 class="displayheadingFood">Cherries</h1>
+			</div>
+		</div>
+		
+	<div class="btnGreyBoxWrap">
+			<input type="button" data-theme="c" data-icon="plus" data-iconpos="right" name="Submit" id="kcalSubmit" value="Add food" />
+
+			<div class="greyBoxFood">
+
+				<div id="kcalNum">35</div>
+
+				<div id="counterDisplay"></div>
+
+					<div class="resetWrap">
+
+						<p class="smallp"><strong>Per 100g: </strong>50 kcal, 229 kj; 0.4g protein; 12.0g carbohydrate of which 11.8g sugars; 0.0g fat; 3&micro;g vitamin B11, 10mg vitamin C </p>
+						
+						<a id="resetBtn" data-theme="c" class="ui-btn ui-mini  ui-icon-refresh ui-inline ui-btn-icon-right">Reset</a>
+
+					</div>
+			</div>
+		</div>
+		
+		
+		
+		
+
+	<script type="text/javascript" src="fruit.js"></script>
+		
+	</main>	
+		
+<!--Persistent footer, Persistent Developer>PopUp - see index page-->
+
+<!--end main div-->
+</div>
+	
+</body>
+</html>

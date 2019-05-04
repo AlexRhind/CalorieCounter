@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CalorieCount_B-Contact</title>
+	
+<meta name="viewport" content="width=device width, initial-scale=1">
+	
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+  <link rel="stylesheet" href="css/themes/CalCount15Feb.css" />
+  <link rel="stylesheet" href="css/themes/CalCount15Feb.min.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<!--AR scripting--> 	
+
+<link rel="stylesheet" type="text/css" href="arCSS.css">
+	
+</head>
+
+<body>
+	
+<!--Persistent header-->
+<header data-position="fixed" data-role="header" data-theme="a">
+	
+		<a href="index.html" data-icon="home" data-rel="home" 
+			class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"
+		data-mini="true" data-inline="true" title="Home"></a>
+		<div id="headerLogoStyle"><a href="index.html"><img class="logoStyle" alt="calCount Logo" src="img/logos/calCountHorz.png" /></a></div>
+		<a href="#" data-rel="back" data-mini="true" data-inline="true" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all" title="goBack"></a>
+	
+</header>
+
+
+<!--Persistent Footer-->
+<footer data-role="footer" data-position="fixed" data-theme="b">
+
+	<div data-role="navbar">
+		<a href="#devPopUp" class="ui-btn ui-icon-info ui-btn-icon-notext ui-corner-all ui-button-active" data-rel="popup" data-transition="fade" data-inline="false" data-mini="false" >Developer</a>	
+		<a href="#contactPopUp" class="ui-btn ui-icon-comment ui-btn-icon-notext ui-corner-all ui-button-active"  data-rel="popup" data-transition="fade" data-inline="false" data-mini="false" >Contact us</a>
+	</div>
+
+</footer>
+	
+	
+<!--Persistent Footer>Developer Pop-up div-->
+<div class="ui-popup ui-body-a" data-role="popup" id="devPopUp" data-inline="true">
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">back</a>
+	<p><strong>Developer</strong> RhinoCode</p>
+	<p><strong>Version</strong> 1.0</p>
+	<p><strong>Release date</strong> 01/02/18</p>
+</div>
+
+
+<!--Persistent Footer>Contact Pop-up div-->
+<div class="ui-popup ui-body-a" data-role="popup" id="contactPopUp" data-inset="true" >
+	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-right">back</a>
+	
+	<!--Form Content div-->
+		<div class="#" align="" data-inse data-inset="true" >
+
+			<h4>Contact calCount</h4>
+			<p>A bit of blurb about the calorie counter and how wonderful it is, and why you should sign up for an email about kcals. </p>	
+
+			<form method="post" action="">
+				<div class="ui-field-contain">			
+					<label for="username">Name</label><input type="text" id="username" value="" placeholder="Please enter your name" required>
+				</div>
+
+				<div class="ui-field-contain">
+					<label for="company">Email</label><input type="email" id="email" value="" placeholder="Please enter a valid email address" required>
+				</div>
+
+				<div class="ui-field-contain">			
+					<label for="comments">Comments</label><textarea type="text" id="comments" value="" placeholder="(optional)"></textarea>
+				</div>
+
+				<div class="ui-field-contain">			
+					<label for="newsletter">Yes! Email me Calories Count&rsquo;s monthly newsletter<input type="checkbox" id="newsletter" value="no" ></label>
+				</div>
+
+				<div class="ui-field-contain">			
+					<input type="submit" name="submit" value="Send">
+				</div>
+			</form>
+				
+	<!-- End Form Content div-->
+		</div>
+
+<!--End persistent Footer>Contact Pop-up div-->
+</div>
+
+	
+<!--end Persistent content-->
+	
+	
+<div id="splash">
+	
+	<div id="splashImg">
+		
+		<div class="orangeBoxSplash">
+			<img alt="calCount Logo" src="img/logos/calCountWhite.png" />
+		</div>
+	
+		<div id="recipeCopy"></div>
+		
+	</div>
+	
+</div>
+
+
+	
+	
+<!--Page div-->
+	<div id="home" data-role="page" data-theme="b">
+	
+
+	<main data-role="content" data-theme="a" >
+		
+		<div id="container">
+			<div class="orangeBoxHome">
+				<img alt="calCount Logo" src="img/logos/calCountWhite.png" />
+			</div>
+			
+			<ul data-role="listview" data-inset="true">
+				<li><a href="library.html">Food library</a></li>
+				<li><a href="podcasts.html">Podcasts</a></li>
+				<li><a href="appInfo.html">Using calCount</a></li>
+				<li><a href="aboutKcal.html">All about calories</a></li>
+			</ul>
+			
+		<!--Main container div ends-->
+		</div>
+	</main>	
+		
+	
+<!--end Page div-->
+</div>
+	
+	
+<script type="text/javascript" src="CaloriesCount.js"></script>
+
+	
+	
+</body>
+</html>

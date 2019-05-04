@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*rgba(255, 255, 255, 1) White 100% opcacity*/
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-kerning: normal;/*kern and ligature set*/
+			text-rendering: optimizeLegibility;
+			font-variant-ligatures: common-ligatures;
+			-webkit-font-smoothing: antialiased;
+		}
+
+
+		#splash{
+			position:absolute;
+			top:0;
+			left:0;
+			bottom:0;
+			width:100%;
+			height: 100vh;
+			z-index: 1002;
+		}
+
+		#splashImg1{
+			background-image: url(img/pageImg/healthy1.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg2{
+			background-image: url(img/pageImg/healthy2.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg3{
+			background-image: url(img/pageImg/healthy3.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg4{
+			background-image: url(img/pageImg/healthy4.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg5{
+			background-image: url(img/pageImg/healthy5.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg6{
+			background-image: url(img/pageImg/healthy6.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg7{
+			background-image: url(img/pageImg/healthy7.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		#splashImg8{
+			background-image: url(img/pageImg/healthy8.jpg);
+			background-position: center;
+			background-size: cover;
+			border: 1px solid rgba(0,0,0,0.00); /*border fix - fills to 100% of screen*/
+			height: 100vh;
+		}
+
+		.orangeBoxSplash {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row-reverse;
+			margin: -16px 0 0 0;
+			width: calc(100% - 33px);
+			margin-left: 18px;
+			height: 286px;
+			background-color: rgba(247, 147, 30, 0.75); /*#F7931E ORANGE*/
+		}
+
+		.orangeBoxSplash img {
+			width: 120px;
+			padding: 16px 18px 16px 16px;
+		}
+
+		#recipeCopy {
+			background-color: rgba(0,0,0,0.80); /*80% black pic styles*/
+			height: 40px;
+			position: absolute;
+			width: 100%;
+			top: 85%;
+		}
+		
+		#recipeCopy p {
+			color: white;
+			margin: 9px 0 0 18px;
+			text-shadow: none;
+}
+
+		.ui-page {
+			background: transparent;
+			background-image: url(img/pageImg/foodBgrd.png);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.ui-content{
+			background: rgba(255, 255, 255, .45);/*white 50% ghost*/
+		}
+
+
+		/*Header styles*/
+
+		.logoStyle {
+			margin: 5px 50px;
+			width: 120px;
+			display: inline-block
+		}
+
+
+		#container {width: 100%}
+
+		.flexWrapper{
+			display: flex;
+			height: 100%;
+			align-items: flex-end;
+			flex-direction: row;
+		}
+
+		.orangeBoxOther {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 232px;
+			background-color: rgba(247, 147, 30, 0.75); /*#F7931E ORANGE*/
+		}
+
+		.podcastImagePic1 {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 150px;
+			background-image: url(img/podcast/healthy3-MedCoolman.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.podcastImagePic2 {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 150px;
+			background-image: url(img/podcast/healthy5-MedCoolman.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.podcastImagePic3 {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 150px;
+			background-image: url(img/podcast/healthy7-MedCoolman.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.podcastImagePic4 {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 150px;
+			background-image: url(img/podcast/healthy1-MedCoolman.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+
+		.podcastHeading {
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: 200;
+			font-size: 1.8rem;
+			color: white;
+			text-shadow: 1px 1px 3px #404040;
+			margin: 8px 16px 9px 16px;
+			display: inline-block;
+		}
+
+
+
+		.displayheading {
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: 200;
+			font-size: 2.5rem;
+			color: white;
+			text-shadow: none;
+			margin: 8px 16px;
+			display: inline-block;
+		}
+
+
+		.displayheadingFood {
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: 200;
+			font-size: 2.5rem;
+			color: white;
+			text-shadow: none;
+			border: solid 0px red;
+			margin: 8px 16px;
+			align-items: flex-end;
+
+		}
+
+		.orangeBoxHome {
+			display: flex;
+			align-items: flex-end;
+			flex-direction: row-reverse;
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 232px;
+			background-color: rgba(247, 147, 30, 0.75); /*#F7931E ORANGE*/
+		}
+
+		.orangeBoxHome img {
+				width: 120px;
+				padding: 16px;
+		}
+
+		.orangeBoxFood {
+			margin: -16px 0 0 0;
+			width: 100%;
+			height: 99px;
+			border: solid 0px green;
+			background-color: rgba(247, 147, 30, 0.75); /*#F7931E ORANGE*/
+			position: relative;
+			top: -220px;
+			left: 0;
+			z-index: 100;
+
+		}
+
+		.foodPic {
+			overflow: hidden;
+			margin: -16px 0 0 0;
+			height: 232px;
+			border: solid 0px red;
+			position: relative;
+			z-index: 90;
+		}
+
+		.foodPic img {
+			object-fit: cover;
+			width: 100vw;
+			
+		}
+
+		.resetWrap {
+			border-top: #818080 dotted 1px;
+			margin-top: 15px;
+		}
+
+		.greyBoxFood, .greyBoxPodcast {
+			background-color: rgba(255,255,255,0.60); /*#e8e4df food grey tint*/
+			margin-top: -8px;
+			padding: 5px 20px;
+			border: solid 0px red;
+		}
+
+		.smallp {
+			font-size: 0.8rem;
+			line-height: 1.1rem;
+			margin: 2px 0 10px 0px;			
+			color: #818080; /*light grey | per 100g info */
+			display: block;
+			padding-top: 10px;
+		}
+
+		.btnGreyBoxWrap {
+			margin: -70px 0 0 0;
+		}
+
+		#resetBtn.ui-btn {
+			margin: 15px 0 20px 0;
+		}
+
+		#counterDisplay { 
+			color: #F7931E;
+			font-weight: 400;
+			margin: 0.1rem 0 0.9rem 0;
+		}
+
+		#kcalNum  { 
+			font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: 200;
+			font-size: 2.5rem;
+			display: inline-block;
+			margin: 5px 0 0 0;
+			color: #707070;
+		}
+
+		#kcalNum::after {
+			content: "\00A0kcal"; /*Use escaped unicode ch for content css \00A0 is en quad &nbsp*/
+			font-size: 1.25rem;
+			padding-bottom: 0.4rem;
+			font-weight: 400;
+			color: #707070;
+			display: inline-block;
+		}
+
+		audio {
+			width: 100%;
+			margin: 0 0 -3px 0;
+			border: 0px solid red;
+		}
+
+		h4.podcast {
+			font-weight: 400;
+			color: white;
+			font-size: 0.9rem;
+			margin: 10px 16px 14px 16px;
+			display: inline-block;
+		}
+
+		h3.podcastH3 {
+			font-weight: 200;
+			color: #444444;  /*dark grey*/
+			font-size: 1.3rem;
+			margin: 16px 16px 14px 16px;
+			display: inline-block;
+		}
+
+		h3.podcastH3white {
+			font-size: 1.3rem;
+			margin: 16px;
+			display: inline-block;
+			align-self: flex-end;
+		}
+
+		.podcastWrap {
+			background-color: #444444;
+			border: 0px solid red;
+			margin: 10px 0 30px 0;
+			overflow: hidden;
+		}
+
+
+		img.podcastImg {
+			object-fit: cover;
+			width: 100vw;
+			height: 150px;
+			overflow: hidden;
+			display: block;
+		}

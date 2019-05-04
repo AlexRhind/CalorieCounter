@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CalorieCount_B-Contact</title>
+	
+<meta name="viewport" content="width=device width, initial-scale=1">
+	
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+<!--AR scripting--> 	
+<script type="text/javascript" src="CaloriesCount.js"></script>
+	
+</head>
+
+<body>
+	
+	<div data-role="page" id="home">
+
+<!--Persistent header - see index page-->
+		
+	<main data-role="content" data-theme="a">
+		<h4>B Contact us</h4>
+		<p>A bit of blurb about the calorie counter and how wonderful it is, and why you should sign up for an email about kcals. </p>	
+		
+		<form method="post" action="">
+		
+			<div class="ui-field-contain">			
+				<label for="username">Name</label><input type="text" id="username" value="" placeholder="Please enter your name" required>
+			</div>
+
+			<div class="ui-field-contain">
+				<label for="company">Email</label><input type="email" id="email" value="" placeholder="Please enter a valid email address" required>
+			</div>
+			
+			<div class="ui-field-contain">			
+				<label for="comments">Comments</label><textarea type="text" id="comments" value="" placeholder="(optional)"></textarea>
+			</div>
+						
+			<div class="ui-field-contain">			
+				<label for="newsletter">Yes! Email me Calories Count&rsquo;s monthly newsletter<input type="checkbox" id="newsletter" value="no" ></label>
+			</div>
+			
+			<div class="ui-field-contain">			
+				<input type="submit" name="submit" value="Send">
+			</div>
+			
+		</form>
+			
+	</main>	
+		
+<!--Persistent footer, Persistent Developer>PopUp - see index page-->
+
+<!--end main div-->
+</div>
+	
+</body>
+</html>
